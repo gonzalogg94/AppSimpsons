@@ -34,7 +34,7 @@ function App() {
       <img className='w-75' src="https://trello.com/1/cards/632a448eb47fe800d9bdef25/attachments/632cd857ffabe0042d12baf2/previews/632cd858ffabe0042d12bb36/download/image.png" alt="" />
     </div>
     <div className='col-12'>
-    <Button variant="warning">Obtener Frase</Button>
+    <Button variant="warning" onClick={consultarAPI}>Obtener Frase</Button>
     </div>
     </article>
     <Frase personaje={personaje}></Frase>
